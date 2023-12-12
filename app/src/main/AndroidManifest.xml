@@ -13,6 +13,12 @@
         android:theme="@style/Theme.ImpactPlay"
         tools:targetApi="31">
         <activity
+            android:name=".Parabens"
+            android:exported="false" />
+        <activity
+            android:name=".CadastroAtividade"
+            android:exported="false" />
+        <activity
             android:name=".Login"
             android:exported="false" />
         <activity

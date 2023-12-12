@@ -8,11 +8,11 @@
     android:padding="28dp"
     tools:context=".Home">
 
-    <ImageView
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:src="@drawable/menu"
-        android:layout_alignParentEnd="true"/>
+<!--    <ImageView-->
+<!--        android:layout_width="30dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:src="@drawable/menu"-->
+<!--        android:layout_alignParentEnd="true"/>-->
 
 
 
@@ -50,77 +50,13 @@
     <Button
         android:id="@+id/btn_desafio"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="COMPLETE O DESAFIO DE HOJE"
+        android:layout_height="64dp"
         android:layout_below="@+id/txv_ranking"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:backgroundTint="@color/text_color"/>
-
-    <ImageView
-        android:id="@+id/img_horta"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:src="@drawable/horta"
-        android:layout_below="@+id/btn_desafio"
-        android:layout_marginTop="40dp"
-        android:layout_marginLeft="20dp"/>
-
-    <ImageView
-        android:id="@+id/img_reciclagem"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:src="@drawable/recicle"
-        android:layout_marginTop="40dp"
-        android:layout_below="@+id/btn_desafio"
-        android:layout_centerHorizontal="true"
-        android:layout_marginLeft="24dp"/>
-
-    <ImageView
-        android:id="@+id/img_diet"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:src="@drawable/diet"
-        android:layout_marginTop="40dp"
-        android:layout_below="@+id/btn_desafio"
-        android:layout_alignParentEnd="true"
-        android:layout_marginLeft="24dp"
-        android:layout_marginEnd="20dp"/>
-
-//segunda linha
-
-    <ImageView
-        android:id="@+id/img_exercise"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:src="@drawable/exercise"
-        android:layout_below="@+id/img_horta"
-        android:layout_marginTop="60dp"
-        android:layout_marginLeft="20dp"/>
-
-    <ImageView
-        android:id="@+id/img_voluntario"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:src="@drawable/voluntariado"
-        android:layout_marginTop="60dp"
-        android:layout_below="@+id/img_reciclagem"
-        android:layout_centerHorizontal="true"
-        android:layout_marginLeft="24dp"/>
-
-    <ImageView
-        android:id="@+id/img_water"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:src="@drawable/agua"
-        android:layout_marginTop="60dp"
-        android:layout_below="@+id/img_diet"
-        android:layout_alignParentEnd="true"
-        android:layout_marginLeft="24dp"
-        android:layout_marginEnd="20dp"/>
-
-
-
+        android:layout_centerVertical="true"
+        android:layout_marginTop="98dp"
+        android:backgroundTint="@color/text_color"
+        android:text="Cadastre uma nova atividade"
+        android:textSize="16sp" />
 
 
 </RelativeLayout>

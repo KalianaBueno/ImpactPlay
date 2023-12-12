@@ -5,15 +5,15 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class Home : AppCompatActivity() {
+class CadastroAtividade : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_home)
+        setContentView(R.layout.activity_cadastro_atividade)
 
-        val btnCadastroAtividade = findViewById<Button>(R.id.btn_desafio)
+        val btnEnviar = findViewById<Button>(R.id.btn_enviar)
 
-        btnCadastroAtividade.setOnClickListener{
-            val i = Intent(this, CadastroAtividade::class.java)
+        btnEnviar.setOnClickListener{
+            val i = Intent(this, Parabens::class.java)
             startActivity(i)
         }
     }
